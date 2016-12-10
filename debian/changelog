@@ -1,0 +1,5 @@
+xivo-keyring (1.0-1) squeeze; urgency=low
+
+  * xivo apt gpg key
+
+ -- Nicolas HICHER <nhicher@avencall.com>  Mon, 25 Feb 2013 11:12:54 -0500

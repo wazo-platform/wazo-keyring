@@ -1,0 +1,15 @@
+Source:xivo-keyring
+Section: misc
+Priority: extra
+Maintainer: Nicolas HICHER <nhicher@avencall.com>
+Homepage: http://projects.xivo.fr
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 7)
+
+Package: xivo-keyring
+Architecture: all
+Multi-Arch: foreign
+Depends: gnupg, ${misc:Depends}
+Description: GnuPG archive key of the XiVO repositories
+ The XiVO repositories digitally signs its Release files. This
+ package contains the repository key used for that.
