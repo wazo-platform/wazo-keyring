@@ -1,14 +1,17 @@
-Source: xivo-keyring
+Source: wazo-archive-keyring
 Section: misc
-Priority: extra
-Maintainer: Wazo Maintainers <dev.wazo@gmail.com>
+Priority: optional
+Maintainer: Wazo Platform Maintainers <dev@wazo.community>
 Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 9)
 
-Package: xivo-keyring
+Package: wazo-archive-keyring
 Architecture: all
 Multi-Arch: foreign
+Provides: xivo-keyring
+Replaces: xivo-keyring
+Conflicts: xivo-keyring
 Depends: gpgv, ${misc:Depends}
-Description: GnuPG archive key of the Wazo repositories
- The Wazo repositories digitally signs its Release files. This
+Description: GnuPG archive key of the Wazo Platform repositories
+ The Wazo Platform repositories digitally signs its Release files. This
  package contains the repository key used for that.

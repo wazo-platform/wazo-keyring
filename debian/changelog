@@ -1,3 +1,9 @@
+wazo-archive-keyring (20.03~0.0) wazo-dev-buster; urgency=medium
+
+  * renamed
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Fri, 07 Feb 2020 19:11:00 +0100
+
 xivo-keyring (16.16~20161210.1) wazo-dev; urgency=medium
 
   * update for Wazo

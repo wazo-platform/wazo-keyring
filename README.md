@@ -1,7 +1,7 @@
-xivo-keyring
-============
+wazo-archive-keyring
+====================
 
-xivo-keyring is a Debian package that manages GnuPG archive keys used by Wazo.
+wazo-archive-keyring is a Debian package that manages GnuPG archive keys used by Wazo.
 
 To update wazo-keyring.gpg, always use a gpg command similar to:
 
