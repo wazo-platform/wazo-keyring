@@ -1,7 +1,7 @@
-wazo-archive-keyring
-====================
+wazo-keyring
+============
 
-wazo-archive-keyring is a Debian package that manages GnuPG archive keys used by Wazo.
+wazo-keyring is a Debian package that manages GnuPG archive keys used by Wazo Platform.
 
 To update wazo-keyring.gpg, always use a gpg command similar to:
 
