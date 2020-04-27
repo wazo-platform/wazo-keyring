@@ -4,9 +4,6 @@ set -e
 
 case "$1" in
     configure)
-	if dpkg --compare-versions "$2" "le-nl" "1.0-1" && which apt-key > /dev/null; then
-	    apt-key del DFB0B268 > /dev/null 2>&1 || :
-	fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
