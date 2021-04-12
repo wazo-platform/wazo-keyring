@@ -13,3 +13,4 @@ For example, updating the GPG key:
 ```
 gpg --keyring ./wazo-keyring.gpg --no-default-keyring --import wazo-platform.key
 ```
+
