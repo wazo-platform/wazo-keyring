@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Wazo Platform Maintainers <dev@wazo.community>
 Standards-Version: 3.9.6
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 12)
 
 Package: wazo-keyring
 Architecture: all
