@@ -20,6 +20,13 @@ pipeline {
         ]
       }
     }
+    stage('Publish public keys over HTTP') {
+      steps {
+        sh '''
+        scp wazo-keyring.gpg root@mirror.wazo.io:/data/reprepro/keys/wazo_current.key
+        '''
+      }
+    }
   }
   post {
     failure {
