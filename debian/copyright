@@ -1,14 +1,29 @@
-This is Wazo GNU's GnuPG keyrings of archive keys.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: wazo-keyring
+Source: https://github.com/wazo-platform/wazo-keyring
 
-The keys in the keyrings don't fall under any copyright.  Everything
-else in the package is covered by the GNU GPL.
+Files: wazo-keyring.gpg
+Copyright: 2016-2024 The Wazo Authors
+License: public-domain
+  The keys in the keyrings don't fall under any copyright.
 
-XiVO support files Copyright (C) 2012 Avencall <dev@avencall.com> 
-based on the debian-keyring package maintained by James Troup 
+Files: *
+Copyright: 2012-2024 The Wazo Authors
+License: GPL-3+
 
-You should have received a copy of the GNU General Public License with
-your Debian system, in /usr/share/common-licenses/GPL, or with the
-Debian GNU debian-archive-keyring source package as the file COPYING.
-If not, write to the Free Software Foundation, Inc., 51 Franklin Street,
-Fifth Floor, Boston, MA 02110-1301 USA.
-
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+Comment:
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
