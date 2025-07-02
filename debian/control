@@ -8,6 +8,10 @@ Build-Depends: debhelper (>= 12)
 Package: wazo-keyring
 Architecture: all
 Multi-Arch: foreign
+# TODO: Remove Provides/Replaces/Conflicts after Bookworm migration
+Provides: xivo-keyring, wazo-archive-keyring
+Replaces: xivo-keyring, wazo-archive-keyring
+Conflicts: xivo-keyring, wazo-archive-keyring
 Depends: gpgv, ${misc:Depends}
 Description: GnuPG archive key of the Wazo Platform repositories
  The Wazo Platform repositories digitally signs its Release files. This
