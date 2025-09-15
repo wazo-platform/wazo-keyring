@@ -1,1 +1,1 @@
-wazo-keyring: package-installs-apt-keyring etc/apt/trusted.gpg.d/wazo-keyring.gpg
+wazo-keyring: package-installs-apt-keyring [etc/apt/trusted.gpg.d/wazo-keyring.gpg]
