@@ -1,0 +1,1 @@
+rm_conffile /etc/apt/trusted.gpg.d/wazo-keyring.gpg 25.16
